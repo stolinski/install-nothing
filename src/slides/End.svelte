@@ -5,10 +5,11 @@
 </script>
 
 <section>
-  <img src={qr} alt="https://tolin.ski/talks/fresh-style" width="200" />
+  <!-- TODO replace this QR Code -->
+  <img src={qr} alt="https://tolin.ski/talks/install-nothing" width="200" />
   <p>
-    <a href="https://tolin.ski/talks/fresh-style"
-      >https://tolin.ski/talks/fresh-style</a
+    <a href="https://tolin.ski/talks/install-nothing"
+      >https://tolin.ski/talks/install-nothing</a
     >
   </p>
   {#if !no_thanks}

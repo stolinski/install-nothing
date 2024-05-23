@@ -5,15 +5,18 @@
 
 <style>
   h1 {
-    font-size: 100px !important;
-    font-weight: 900 !important;
-    background: var(--yellow);
-    color: #000;
+    --r-heading-font-size: 100px;
+    --r-heading-font-weight: 900;
+    background: linear-gradient(to left, var(--green), var(--teal));
+    --r-heading-color: #000;
     rotate: -2deg;
-    scale: 1.2;
+    scale: 1.4;
     margin-bottom: 5rem !important;
+    display: inline-block;
+    font-style: italic;
   }
 
   h3 {
+    --r-heading-color: var(--white);
   }
 </style>

@@ -3,14 +3,13 @@
 </script>
 
 <section data-transition="fade">
-  <h1>What's up?</h1>
+  <h1>What are we doing here?</h1>
   <ul>
     <li class="fragment fade-up">
-      We'll be looking at <i>real</i> demos using new and underutilized browser APIs
+      <i>Wow</i> techniques with new and coming CSS features
     </li>
-    <li class="fragment fade-up">But can I actually use it?</li>
     <li class="fragment fade-up">
-      🛳️ Ship score
+      Give it a ship score
       <ul>
         <li class="fragment fade-up">Check it</li>
         <li class="fragment fade-up">Try it</li>
@@ -27,16 +26,8 @@
 <style>
   h1 {
     color: var(--yellow) !important;
-    font-style: italic;
   }
   li {
     line-height: 1.8;
-    padding-left: 1rem;
-  }
-  li {
-    list-style-type: "×";
-  }
-  li::marker {
-    color: var(--teal);
   }
 </style>

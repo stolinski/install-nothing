@@ -27,15 +27,7 @@ body {
   --green: oklch(92.06% 0.269 var(--green-hue));
   --r-heading1-size: 4rem;
   --r-main-font-size: 30px;
-}
-
-h1 {
-  font-style: italic;
-}
-
-h3,
-h5 {
-  color: var(--yellow) !important;
+  --r-link-color-hover: var(--teal);
 }
 
 #app {
