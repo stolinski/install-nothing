@@ -1,77 +1,14 @@
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-Regular.woff2") format("woff2"),
-    url("/MDIO0.6-Regular.woff") format("woff");
-  font-weight: normal;
+/* @font-face {
+  font-family: "🆒";
+  src: url("path/to/your/font-file.woff2") format("woff2");
+  font-weight: 100 900; 
   font-style: normal;
-}
+} 
+*/
 
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-Italic.woff2") format("woff2"),
-    url("/MDIO0.6-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-Bold.woff2") format("woff2"),
-    url("/MDIO0.6-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-BoldItalic.woff2") format("woff2"),
-    url("/MDIO0.6-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-Black.woff2") format("woff2"),
-    url("/MDIO0.6-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-BlackItalic.woff2") format("woff2"),
-    url("/MDIO0.6-BlackItalic.woff") format("woff");
-  font-weight: 900;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-Semibold.woff2") format("woff2"),
-    url("/MDIO0.6-Semibold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-Ultra.woff2") format("woff2"),
-    url("/MDIO0.6-Ultra.woff") format("woff");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MDIO0.6";
-  src: url("/MDIO0.6-UltraItalic.woff2") format("woff2"),
-    url("/MDIO0.6-UltraItalic.woff") format("woff");
-  font-weight: 800;
-  font-style: italic;
-}
-
+/* Change this to host somewhere closer to launch */
 html {
-  font-family: "MDIO0.6";
+  font-family: "AT Name Mono Variable";
 }
 
 body {
@@ -81,8 +18,8 @@ body {
   --red: oklch(67% 0.221 var(--red-hue));
   --teal-hue: 188.71;
   --teal: oklch(90.16% 0.173 188.71);
-  --r-main-font: "MDIO0.6";
-  --r-heading-font: "MDIO0.6";
+  --r-main-font: "AT Name Mono Variable";
+  --r-heading-font: "AT Name Mono Variable";
   --r-link-color: var(--yellow);
   --r-background-color: black;
   --r-heading-text-transform: none;
