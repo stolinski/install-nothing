@@ -18,10 +18,10 @@
       </ul>
     </li>
   </ul>
-  <Notes>
-    * My job lets me see new things * Newer than chatGPT * People always say...
-    that's cool but I can't use it
-  </Notes>
+  <Notes
+    >* We're on the precipice of a massive amount of new browser APIs hit that
+    great simplify our code.</Notes
+  >
 </section>
 
 <style>

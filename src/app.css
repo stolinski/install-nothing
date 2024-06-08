@@ -1,14 +1,24 @@
-/* @font-face {
+@font-face {
   font-family: "🆒";
-  src: url("path/to/your/font-file.woff2") format("woff2");
-  font-weight: 100 900; 
+  src: local("ATNameMonoVariable-Regular"),
+    url("https://scotts-fonts.scott-bb5.workers.dev/NameMonoVariable.woff2")
+      format("woff2");
+  font-weight: 100 900;
   font-style: normal;
-} 
-*/
+}
+
+@font-face {
+  font-family: "🆒";
+  src: local("ATNameMonoVariable-RegularItalic"),
+    url("https://scotts-fonts.scott-bb5.workers.dev/NameMonoItalicVariable.woff2")
+      format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+}
 
 /* Change this to host somewhere closer to launch */
 html {
-  font-family: "AT Name Mono Variable";
+  font-family: "🆒, monospace";
 }
 
 body {
@@ -18,8 +28,8 @@ body {
   --red: oklch(67% 0.221 var(--red-hue));
   --teal-hue: 188.71;
   --teal: oklch(90.16% 0.173 188.71);
-  --r-main-font: "AT Name Mono Variable";
-  --r-heading-font: "AT Name Mono Variable";
+  --r-main-font: "🆒";
+  --r-heading-font: "🆒";
   --r-link-color: var(--yellow);
   --r-background-color: black;
   --r-heading-text-transform: none;
@@ -35,4 +45,14 @@ body {
   margin: 0 auto;
   text-align: center;
   height: 100vh;
+}
+
+.reveal .progress span {
+  background: linear-gradient(to left, var(--green), var(--teal)) !important;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-variation-settings: "wght" 700, "ital" 1;
 }

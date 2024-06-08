@@ -2,23 +2,26 @@
   import Title from "./slides/Title.svelte";
   import GettingStarted from "./slides/GettingStarted.svelte";
   import WhatAreWeDoing from "./slides/WhatAreWeDoing.svelte";
-  import MediaQueries from "./slides/MediaQueries.svelte";
-  import Animations from "./slides/Animations.svelte";
-  import Colors from "./slides/Colors.svelte";
-  import Cascade from "./slides/Cascade.svelte";
+  import Modals from "./slides/Modals.svelte";
   import End from "./slides/End.svelte";
-  // import Extras from "./slides/Extras.svelte";
-  import Caveats from "./slides/Caveats.svelte";
+  import CommonUIs from "./slides/CommonUIs.svelte";
+  import Menu from "./slides/Menu.svelte";
+  import MobileNav from "./slides/MobileNav.svelte";
+  import Accordions from "./slides/Accordions.svelte";
+  import Drawer from "./slides/Drawer.svelte";
 </script>
 
 <Title />
 <GettingStarted />
 <WhatAreWeDoing />
 <End no_thanks={true} />
-<Caveats />
-<MediaQueries />
-<Colors />
-<Cascade />
-<Animations />
-<!-- <Extras /> -->
+<CommonUIs />
+<Modals />
+<Menu />
+<MobileNav />
+<Accordions />
+
+<!-- Accordion -->
+<!-- Tooltips -->
+
 <End />

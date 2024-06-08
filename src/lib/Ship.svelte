@@ -10,6 +10,7 @@
   export let notes = "";
   export let versions = ["", "", ""];
   export let hide_logos = false;
+  export let global;
 </script>
 
 <section data-auto-animate data-background="#000">
@@ -32,6 +33,10 @@
       <Logos ff_v={versions[2]} saf_v={versions[1]} c_v={versions[0]} />
     {/if}
     <img src={gif} alt="" />
+    <p class="global">
+      {global}
+      <span>Global Usage</span>
+    </p>
   </div>
   <Notes>{notes}</Notes>
 </section>
@@ -45,6 +50,18 @@
     padding: 10px;
     top: 57px;
     z-index: -1;
+  }
+  .global {
+    position: absolute;
+    font-size: 5rem;
+    top: 200px;
+    right: -80px;
+    rotate: 15deg;
+    font-weight: 900;
+  }
+  .global span {
+    font-size: 1rem;
+    display: block;
   }
 
   .ship {
